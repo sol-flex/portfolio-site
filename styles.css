@@ -1,0 +1,81 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+.nav-link {
+    color: white;
+    line-height: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    opacity: 0.6
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.nav-link:active {
+    opacity: 1
+}
+
+.intro-wrap {
+     margin-top: 40px; 
+     margin-bottom: 40px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: start;
+}
+
+.heading-jumbo {
+    font-size: 64px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraph-light {
+    opacity: 0.6;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+.name-text { 
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 400;
+}
+
+.carousel-item {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.carousel-item-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.certificates-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.certificates-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
